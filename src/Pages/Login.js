@@ -1,17 +1,20 @@
-import { Button } from '@mui/material'
-import React from 'react'
-import LeftSection from '../Components/LoginComp/LeftSection'
-import RightSection from '../Components/LoginComp/RightSection'
+import { Button, Stack } from "@mui/material";
+import React from "react";
+import LeftSection from "../Components/LoginComp/LeftSection";
+import RightSection from "../Components/LoginComp/RightSection";
 import { Link } from "react-router-dom";
 
 function Login() {
-  return (
-    <div>
-        <RightSection />
-        <LeftSection />
-        <Button ><Link to="home" >sdsadasd</Link> </Button>
-    </div>
-  )
+	return (
+		<Stack direction="row" justifyContent="space-between">
+			<div>
+				<LeftSection />
+			</div>
+			<div>
+				<RightSection />
+			</div>
+		</Stack>
+	);
 }
 
-export default Login
+export default Login;
