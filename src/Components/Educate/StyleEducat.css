@@ -1,0 +1,145 @@
+
+.heroEduc{
+  
+    background-image: url("../../../public/assets/laptop.jpg");
+    height: 88vh;
+    margin: 90px 10px 0 10px;
+    border-radius: 12px;
+    background-size: cover;
+    border-radius: 12px;
+    position: relative;
+   
+}
+.fill-white{
+    fill: white;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: -50px;
+}
+.contText{
+    background-color: #28292962;
+    height: 100%;
+    border-radius: 12px;
+    padding: 80px;
+}
+
+.partner .swiper {
+    width: 100%;
+    height: 100%;
+    margin: 80px 0 ;
+  }
+  
+  .partner .swiper-wrapper{
+    align-items: center;
+  }
+  .partner  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .partner .swiper-slide img {
+    display: block;
+    width: 120px !important;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(1);
+    transition: 0.3s all ease-in-out;
+  }
+  
+  .partner .swiper-slide img:hover {
+
+    filter: grayscale(0);
+  }
+  .yellow{
+    color: #FFC107;
+  }
+  .learn{
+    border-radius: 5px;
+  }
+  .weight{
+    font-weight: 600 !important;
+    font-size: 24px !important;
+  }
+  .gray{
+    color: #747579;
+  }
+  .icon-b{
+    padding: 10px;
+    color: #57ff5f ;
+    background-color: #57ff812f;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+  }
+  .icon-y{
+    padding: 10px;
+    color: #575aff ;
+    background-color: #57ddff2f;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+  }
+
+  .icon-p{
+    padding: 10px;
+    color: #ab19d8 ;
+    background-color: #ca57ff2f;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+  }
+
+  .icon-g{
+    padding: 10px;
+    color: #FFD657 ;
+    background-color: #ffd5572f;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+  }
+  .card-trends{
+    margin-top: 40px;
+    width: 30%; 
+    padding: 7px;
+    background-color: white;
+    height: 400px;
+    box-shadow: 0 0 40px rgb(29 58 83 / 15%);
+  }
+  .card-trends-img{
+   width: 100%;
+   border-radius: 5px;
+
+  }
+  .Graysec{
+    min-height: 50vh;
+    background-color: #F5F7F9;
+    margin-top: 50px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    .heroEduc {
+      height: auto;
+    }
+    .card-trends{
+      width: 100%; 
+      height: 480px;
+    }
+  }
