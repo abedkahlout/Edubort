@@ -1,14 +1,12 @@
 import * as React from "react";
-import Avatar from "@mui/material/Avatar";
 import Button from "@mui/material/Button";
 import TextField from "@mui/material/TextField";
 import FormControlLabel from "@mui/material/FormControlLabel";
 import Checkbox from "@mui/material/Checkbox";
 import Box from "@mui/material/Box";
-import LockOutlinedIcon from "@mui/icons-material/LockOutlined";
 import Typography from "@mui/material/Typography";
 import Container from "@mui/material/Container";
-import { createTheme, ThemeProvider } from "@mui/material/styles";
+import { createTheme } from "@mui/material/styles";
 import { useDispatch } from "react-redux";
 import { addUser } from "../../Redux/UserSlice";
 import { useNavigate } from "react-router-dom";
@@ -27,10 +25,12 @@ export default function SignIn() {
 	};
 
 	return (
-		<Container component="main">
+		<Container component="main" >
 			<Box
 				sx={{
 					marginTop: 12,
+					width:"90%",
+					ml:3
 				}}
 			>
 				<Typography component="h1" variant="h4" >
@@ -46,22 +46,25 @@ export default function SignIn() {
 						margin="normal"
 						required
 						fullWidth
-						sx={{ bg: "gray" }}
+						variant="filled"
 						onChange={(e) => setName(e.target.value)}
 						id="email"
 						label="Email Address"
 						name="email"
 						autoComplete="email"
+						sx={{borderRadius:"15px"}}
 						autoFocus
 					/>
 					<TextField
 						margin="normal"
+						variant="filled"
 						required
 						fullWidth
 						onChange={(e) => setEmail(e.target.value)}
 						name="name"
 						label="name"
 						type="name"
+						sx={{borderRadius:"15px" , mt:2}}
 						id="name"
 						autoComplete="current-name"
 					/>

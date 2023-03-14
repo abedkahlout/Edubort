@@ -37,7 +37,7 @@ const cardsMap = [
 ];
 function Trending() {
 	return (
-		<Container>
+		<Container sx={{mb:7}}>
 			<Typography variant="h4" mt={12} sx={{ fontWeight: 700, mb: 0 }}>
 				Our <span className="yellow">Trending</span> Courses.
 			</Typography>

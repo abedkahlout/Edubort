@@ -1,0 +1,20 @@
+.animated-gradient-text_fade-foreground-1__efWVr {
+    font-size: 5rem; /* adjust the font size to your liking */
+    background: linear-gradient(to right, #f12711, #f5af19, #3fc5f0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animated-gradient-text_fade-foreground-1__efWVr 8s infinite;
+  }
+  
+  @keyframes animated-gradient-text_fade-foreground-1__efWVr {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  

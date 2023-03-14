@@ -1,0 +1,41 @@
+.linkesErr a{
+    text-decoration: none;
+    color: rgb(54, 54, 54);
+    font-size: 17px;
+    transition: 0.3s all ease-in-out;
+}
+.linkesErr a:hover{
+    color:#F16623;
+}
+.cardERR{
+    
+    width: 30vw;
+    height: 55vh;
+    gap: 10px;
+    border-radius: 5px;
+    text-align: center;
+    display: flex;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+background-color: rgba(255, 255, 255, 0.89);
+justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    align-items: center;
+    border: 1px solid rgb(211, 211, 211);
+    animation: color-change 3s infinite;
+    
+}
+
+  
+  @keyframes color-change {
+    0% { color: rgb(197, 172, 172); }
+    50% { color: rgb(111, 111, 218); }
+    100% { color: rgb(170, 82, 0); }
+  }
+.bg-cont-svg{
+
+background-image: url("../../../public/assets/blob.svg");
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
